@@ -22,7 +22,7 @@ int main()
     for(int j=0;j<num;j=j+2)
      sum = sum + arr[j];
 
-     printf("\nSum of every alternate elements starting from 0 : %d\n",sum);
+     printf("\nSum of every alternate elements starting from 0 : %lld\n",sum);
      return 0;
 
 }

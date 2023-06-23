@@ -33,9 +33,9 @@ int main()
 }
 void swap(int *ptr1, char *ptr2)
 {
-    void *temp;
-    temp = ptr1;
-    ptr1 = ptr2;
-    ptr2 = temp;
-    temp= NULL;
+    int temp;
+    temp = *ptr1;
+    *ptr1 = *ptr2;
+    *ptr2 = temp;
+    
 }
